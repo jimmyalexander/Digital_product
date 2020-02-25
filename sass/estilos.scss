@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+@import "lib/variables";
+
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: $font-small;
+    font-family: 'Open Sans', sans-serif;
+ }
+ nav{
+     display: flex;
+     background-color: $green-color;
+     padding: $space;
+     color: $white-color;justify-content: space-between;
+    align-items: center;
+ }
+nav ul{
+    display: flex;
+
+}
+nav ul li {
+    padding-left:20px;
+    list-style: none;
+    
+}
+nav ul li a {
+    color: $black-color;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: $white-color;
+}
+/* -----------------------Main section */
+.main_section{
+    padding:15%;
+    text-align: center;
+}
+.products{
+    background-image: url("../images/curve.png");
+    height: 50px;
+    background-size: cover;
+    background-position: center  top;
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+}
+.product{
+    padding: $space;
+    margin-top: -270px;
+}
+.product .content{
+    background-color: $white-color;
+    padding:15px;
+    box-shadow: $box;
+}
+.image_content{
+    text-align: center;
+    
+}
+.main_button{
+    background-color: $green-color;
+    width: 100%;
+    padding: $space;
+    font-size: $font-normal;
+    color: $white-color;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+
+}
+.main_button:hover{
+    background-color: #5e9e22;
+
+}
+
+.producto_digital{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    padding: 20%;
+    border-bottom: 1px solid #ccc;
+    height: 100%;
+   
+    
+}
+.digital{
+    padding: 50px;    
+}
+
+.image_content{
+    height: auto;
+    margin: 0;
+}
+.menciones{
+    display: flex;
+    padding: 10%;
+    padding-top: 10px;
+
+}
+.menciones_title{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+}
+.menciones_caratulas{
+    border: 1px solid #ccc;
+    margin: 5px;
+}
+.des_content{
+    padding: 10px;
+}
+.caratula_content{
+    margin: 0;
+}
+.caratula_content img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #334;
+    color: white;
+    padding: 12px 10px 15px 12px;
+}
